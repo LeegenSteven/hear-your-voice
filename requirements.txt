@@ -1,0 +1,16 @@
+# ── 通用 ────────────────────────────────────────────────
+requests
+
+# ── v3.py：本地说话人分离（Pyannote）────────────────────
+# 需系统安装 ffmpeg，并确保其在 PATH 中
+pydub
+pyannote.audio
+torch
+torchaudio
+
+# ── v1.py / ffmpeg.py：本地 Whisper + Resemblyzer 方案 ──
+openai-whisper
+numpy
+soundfile
+resemblyzer
+scikit-learn
